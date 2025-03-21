@@ -1,0 +1,22 @@
+Create a module for printing a triangle. You will receive an integer number which is the size of the triangle.
+
+
+            Examples
+
+Input                       Output
+
+3                           1
+                            1 2
+                            1 2 3
+                            1 2
+                            1
+
+Input                       Output
+
+4                           1
+                            1 2
+                            1 2 3
+                            1 2 3 4
+                            1 2 3
+                            1 2
+                            1
