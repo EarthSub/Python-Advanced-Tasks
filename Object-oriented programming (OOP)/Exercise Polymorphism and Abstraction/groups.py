@@ -19,20 +19,20 @@
 
 # Test Code                                                               Output
 
-# p0 = Person('Aliko', 'Dangote')
-# p1 = Person('Bill', 'Gates')
-# p2 = Person('Warren', 'Buffet')
-# p3 = Person('Elon', 'Musk')
-# p4 = p2 + p3
-
-# first_group = Group('__VIP__', [p0, p1, p2])
-# second_group = Group('Special', [p3, p4])
+# p0 = Person('Aliko', 'Dangote')                                           3
+# p1 = Person('Bill', 'Gates')                                              Group Special with members Elon Musk,Warren Musk
+# p2 = Person('Warren', 'Buffet')                                           Person 0: Aliko Dangote
+# p3 = Person('Elon', 'Musk')                                               Person 0: Aliko Dangote
+# p4 = p2 + p3                                                              Person 1: Bill Gates
+#                                                                           Person 2: Warren Buffet
+# first_group = Group('__VIP__', [p0, p1, p2])                              Person 3: Elon Musk
+# second_group = Group('Special', [p3, p4])                                 Person 4: Warren Musk
 # third_group = first_group + second_group
 
 # print(len(first_group))
 # print(second_group)
 # print(third_group[0])
-
+#
 # for person in third_group:
 #     print(person)
 
