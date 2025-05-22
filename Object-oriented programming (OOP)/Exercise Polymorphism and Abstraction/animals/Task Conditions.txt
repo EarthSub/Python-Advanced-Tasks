@@ -1,0 +1,32 @@
+The Animal class (abstract) should take, attributes, a name, an age, and a gender. It should have 2 methods: repr() and make_sound().
+
+The Dog class should inherit and implement the Animal class. Its repr() method should return "This is {name}.
+{name} is a {age} year old {gender} {class}". The dog sound is "Woof!".
+
+The Cat class should inherit and implement the Animal class. Its repr() method should return "This is {name}
+{name} is a {age} year old {gender} {class}". The cat sounds, "Meow meow!".
+
+The Kitten class should inherit and implement the Cat class. Its gender is "Female", and its sound is "Meow".
+
+The Tomcat class should inherit and implement the Cat class. Its gender is "Male", and its sound is "Hiss".
+
+
+                        Examples
+
+Test                                                    Code Output
+
+dog = Dog("Rocky", 3, "Male")                           Woof!
+print(dog.make_sound())                                 This is Rocky. Rocky is a 3 year old Male Dog
+print(dog)                                              Hiss
+tomcat = Tomcat("Tom", 6)                               This is Tom. Tom is a 6 year old Male Tomcat
+print(tomcat.make_sound())
+print(tomcat)
+
+Test                                                    Code Output
+
+kitten = Kitten("Kiki", 1)                              Meow
+print(kitten.make_sound())                              This is Kiki. Kiki is a 1 year old Female Kitten
+print(kitten)                                           Meow meow!
+cat = Cat("Johnny", 7, "Male")                          This is Johnny. Johnny is a 7 year old Male Cat
+print(cat.make_sound())
+print(cat)
